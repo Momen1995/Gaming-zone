@@ -13,7 +13,7 @@ body{
 /* ========common style========== */
 
 .container{
-    max-width: 80%;
+    max-width: 82%;
     margin: 0 auto;
 }
 
@@ -175,6 +175,7 @@ nav{
     margin-bottom: 10px;
 }
 
+
 .gamer-details{
     width: 100%;
     text-align: right;
@@ -184,10 +185,43 @@ nav{
     line-height: 25px;
 }
 
+/* ============funny container================ */
+
+.funny-container{
+    margin-top:7rem;
+}
+
+.funny-container h2{
+    color: #0B0223;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.funny-container p{
+    color: #534C64;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.funny-img{
+    display: flex;
+    gap:10px;
+}
+
+.img-size{
+    width:280px;
+    height: auto;
+}
+
 /* ========player========= */
 
 .player-container{
     gap:8rem;
+    margin: 90px 0;
 }
 .play-title{
     text-align: right;
@@ -218,7 +252,7 @@ nav{
 
 /* ===========online============ */
 
-.game-container{
+/* .game-container{
     margin-top: 5rem;
     display: flex;
     gap:4rem;
@@ -257,3 +291,98 @@ nav{
     line-height: 30px;
     width: 90%;
 }
+
+ */
+
+ /* ==========icon section========= */
+
+ .icon-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.8rem;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+ }
+
+ .card-1{
+    display: flex;
+    gap:.4rem;
+    align-items: center;
+    background-color: #fff;
+ }
+
+ .card-1 p{
+    color: #0B0223;
+    font-size: 1rem;
+    font-weight: 600;
+ }
+
+ .card-3{
+    border: 2px solid  rgb(241, 86, 138);;
+    border-radius: 50px;
+ }
+
+ .card-break{
+    margin-left: 90px;
+  
+ }
+ .last-card{
+    margin-right: 90px;
+ }
+
+ .card-1:hover{
+    border: 2px solid  #0e032c;
+    border-radius: 50px;
+ }
+
+
+ /* =======footer========= */
+
+ /* footer{
+    background: #0B0223;
+    height: 400px;
+ }
+
+ .footer-section{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+.left-nav-one{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+
+.footer-detail {
+    display: flex;
+    gap:1.5rem;
+    color: #FFF;
+    font-size: 1.1rem;
+   
+ }
+
+.icon-footer{
+    display: flex;
+    gap:2rem;
+    margin-top: 1.9rem;
+    color:#FFF;
+    font-size: 1.6rem;
+}
+
+.footer-detail-two{
+    display: flex;
+    gap:4rem;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    margin-top: 1.9rem;
+}
+
+.last-footer{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    margin-top: 1.3rem;
+} */

@@ -2,7 +2,9 @@
 
 @media screen and (max-width:425px) {
     nav,
-    .right-nav,.gamer-container
+    .right-nav,
+    .gamer-container,
+    .player-container
     {
         flex-direction: column;
         margin-top: 15px;
@@ -57,6 +59,59 @@
         line-height: 22px;
         margin-bottom: 15px;
     }
+    .player-container{
+        gap:3rem;
+        margin-top: 40px;
+    }
+
+    .player-content{
+        width: 100%;
+        text-align: center;
+    }
+    .play-title{
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    .player-detail{
+        text-align: center;
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    .player-img{
+        width:95%;
+        text-align: center;
+    }
+    
+    .player-img .img-one{
+        width: 80%;
+    }
+    
+    .player-img .img-2{
+        width: 30%;
+        height: 30%;
+        position: relative;
+        top:-70px;
+        left: -120px;
+    }
+
+    .icon-section{
+        display: grid;
+        grid-template-columns: repeat(3,1fr); 
+        grid-template-rows: repeat(3,1fr);
+        margin: 0 auto;  
+     }
+     
+     .card-break{
+        margin-left:0;
+      
+     }
+     .last-card{
+        margin-right:0;
+     }
+    
+    
 }
 
 /* =======medium device====== */
@@ -64,7 +119,8 @@
 @media screen and (min-width:425px) and (max-width:998px){
     nav,
     .right-nav
-    
+    ,.gamer-container,
+    .player-container
     {
         flex-direction: column;
         margin-top: 15px;
@@ -108,4 +164,72 @@
         font-size: 1.2rem;
         margin-top: 20px;
     }
+
+    .gamer-img{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .gamer-detail{
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .gamer-details{
+        text-align: center;
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+
+    .player-container{
+        gap:3rem;
+        margin-top: 40px;
+    }
+
+    .player-content{
+        width: 100%;
+        text-align: center;
+    }
+    .play-title{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .player-detail{
+        text-align: center;
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    .player-img{
+        width:98%;
+        text-align: center;
+    }
+    
+    .player-img .img-one{
+        width: 90%;
+    }
+    
+    .player-img .img-2{
+        width: 30%;
+        height: 30%;
+        position: relative;
+        top:-90px;
+        left: -150px;
+    }
+
+   /*  .icon-section{
+        display: grid;
+        grid-template-columns: repeat(3,1fr); 
+        grid-template-rows: repeat(3,1fr);
+        margin: 0 auto;
+        
+     }
+     .card-break{
+        margin-left: 0px;
+      
+     }
+     .last-card{
+        margin-right: 0px;
+     } */
+
+    
 }
