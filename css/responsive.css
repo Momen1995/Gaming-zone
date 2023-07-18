@@ -2,8 +2,7 @@
 
 @media screen and (max-width:425px) {
     nav,
-    .right-nav
-    
+    .right-nav,.gamer-container
     {
         flex-direction: column;
         margin-top: 15px;
@@ -42,6 +41,21 @@
     .btn-primary,.btn-secondary{
         font-size: .9rem;
         margin-top: 20px;
+    }
+
+    .gamer-img{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .gamer-detail{
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .gamer-details{
+        text-align: center;
+        line-height: 22px;
+        margin-bottom: 15px;
     }
 }
 
