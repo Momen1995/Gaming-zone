@@ -84,16 +84,17 @@
     gap:10px;
     align-items: center;
    }
-   .img-size{
-    width:80%;
-    height: auto;
-   }
 
-.img-container  .img-size-two{
-    width: 71%;
+   .img-size{
+    width:270px;
     height: auto;
+}
+
+   .img-container .img-size-two{
+    width:80%;
+    height: 100%;
     display: inline;
-    margin-left: 48px;
+    margin-left: 35px;
   }
   
 
