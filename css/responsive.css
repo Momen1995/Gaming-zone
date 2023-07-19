@@ -1,6 +1,6 @@
 /* for mobile */
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:450px) {
     nav,
     .right-nav,
     .gamer-container,
@@ -79,23 +79,16 @@
     font-size: 1rem;
     font-weight: 400;
    }
-   .funny-img{
+   
+   .img-card{
     flex-direction: column;
-    gap:10px;
+    justify-content: center;
     align-items: center;
    }
 
-   .img-size{
-    width:270px;
-    height: auto;
-}
-
-   .img-container .img-size-two{
-    width:80%;
-    height: 100%;
-    display: inline;
-    margin-left: 35px;
-  }
+   .card-container{
+    margin-bottom: 20px;
+   }
   
 
   .player-content{
@@ -172,8 +165,9 @@
      .footer-detail-two{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        gap:1.2rem;
+        gap:1rem;
         font-size: .8rem;
+        text-align: center;
      }
     .last-footer{
         text-align: center;
@@ -188,7 +182,7 @@
 
 /* =======medium device====== */
 
-@media screen and (min-width:425px) and (max-width:992px){
+@media screen and (min-width:450px) and (max-width:768px){
     nav,
     .right-nav
     ,.gamer-container,
@@ -265,22 +259,14 @@
         font-size: 1rem;
         font-weight: 400;
        }
-       .funny-img{
+       .img-card{
         flex-direction: column;
-        gap:10px;
+        justify-content: center;
         align-items: center;
        }
-       .img-size{
-        width:270px;
-        height: auto;
-    }
-    
-       .img-container .img-size-two{
-        width:80%;
-        height: 100%;
-        display: inline;
-        margin-left: 35px;
-      }
+       .card-container{
+        margin-bottom: 20px;
+       }
 
     .player-container{
         gap:3rem;
@@ -314,8 +300,8 @@
         width: 30%;
         height: 30%;
         position: relative;
-        top:-90px;
-        left: -150px;
+        top:-110px;
+        left: -220px;
     }
 
     .icon-section{
@@ -324,6 +310,7 @@
         grid-template-rows: repeat(3,1fr);
         gap:0.7rem;
         margin-top:10px;
+        margin-right: 0;
     }
     .card-1 p{
         color: #0B0223;
@@ -357,8 +344,9 @@
  .footer-detail-two{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap:1.6rem;
+    gap:1.3rem;
     font-size: .8rem;
+    text-align: center;
  }
 .last-footer{
     text-align: center;

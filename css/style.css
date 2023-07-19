@@ -213,16 +213,20 @@ nav{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     }
-
-.funny-img{
+/* ========== */
+.img-card{
     display: flex;
     gap:10px;
 }
 
-.img-size{
+.card-container{
     width:270px;
-    height: auto;
 }
+
+.card-container img{
+    width: 100%;
+}
+
 
 .img-container{
     position: relative;
