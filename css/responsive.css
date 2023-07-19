@@ -337,7 +337,7 @@
      .last-card{
         margin-right:0;
      }
-  /* ======= */
+
   .footer-detail{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -365,4 +365,5 @@
     margin-bottom: 8px;
 }
 }
+
 
